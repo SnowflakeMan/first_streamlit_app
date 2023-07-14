@@ -63,9 +63,6 @@ if streamlit.button ('Add a fruit to the List'):
    streamlit.text(back_from_frunction)
 
 
-#don't run anything past here while we troubleshoot 
-streamlit.stop()
-
 import snowflake.connector
 
 streamlit.header("The fruit load list contains:")
